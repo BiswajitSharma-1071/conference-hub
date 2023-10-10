@@ -1,0 +1,14 @@
+.system-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.para1 {
+    width: 50vw;
+    margin: 1rem auto;
+  }
+
+.para2 {
+  width: 20vw;
+  margin: 1rem auto;
+}

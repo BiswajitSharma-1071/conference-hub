@@ -1,0 +1,61 @@
+.room-list{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+}
+
+.room-name {
+    font-size: small;
+    color: #697172;
+    padding-bottom: 2rem;
+    font-weight: 600;
+  }
+
+.phonebooth-img{
+    min-height: 8rem;
+    background: url("../assets/images/PhoneboothRoom.png") no-repeat 10vh;
+    background-size: contain;
+    background-position: 50%;
+    width: 100%;
+}
+.huddle-img{
+    min-height: 8rem;
+    background: url("../assets/images/HuddleRoom.png") no-repeat 10vh;
+    background-size: contain;
+    background-position: 50%;
+    width: 100%;
+}
+.medium-img{
+    min-height: 8rem;
+    background: url("../assets/images/MediumRoom.png") no-repeat 10vh;
+    background-size: contain;
+    background-position: 50%;
+    width: 100%;
+}
+.medium-plus-img{
+    min-height: 8rem;
+    background: url("../assets/images/MediumPlusRoom.png") no-repeat 10vh;
+    background-size: contain;
+    background-position: 50%;
+    width: 100%;
+}
+.large-img{
+    min-height: 8rem;
+    background: url("../assets/images/LargeRoom.png") no-repeat 10vh;
+    background-size: contain;
+    background-position: 50%;
+    width: 100%;
+}
+.board-img{
+    min-height: 8rem;
+    background: url("../assets/images/BoardRoom.png") no-repeat 10vh;
+    background-size: contain;
+    background-position: 50%;
+    width: 100%;
+}
+.presentation-img{
+    min-height: 8rem;
+    background: url("../assets/images/PresentationRoom.png") no-repeat 10vh;
+    background-size: contain;
+    background-position: 50%;
+    width: 100%;
+}

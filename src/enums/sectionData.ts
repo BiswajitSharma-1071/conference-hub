@@ -1,0 +1,1 @@
+export type ActivityType = "new-conference" | "update-conference" | "remove-conference";

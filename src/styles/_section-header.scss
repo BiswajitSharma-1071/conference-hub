@@ -1,0 +1,13 @@
+.headerSection {
+  display: flex;
+  // align-items: flex-start;
+  justify-content: center;
+  .conference-img {
+    min-height: 45vh;
+    background: url("../assets/images/HomeImage.jpg") no-repeat 10vh;
+    background-size: contain;
+    background-position: 50%;
+    width: 100%;
+  }
+}
+

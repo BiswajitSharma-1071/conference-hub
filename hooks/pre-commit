@@ -1,0 +1,17 @@
+#!/bin/sh
+
+# Run tests on these files
+echo "[Running Tests]"
+npm run test
+testExitCode=$?
+
+if [ $testExitCode -ne 0 ]
+then
+  echo "\n[Commit FAIL]"
+  echo "We found test issues. Fix 'em up before committing\n"
+  exit 1
+fi
+
+echo "\n[Commit PASS]"
+echo "All good!\n"
+exit 0

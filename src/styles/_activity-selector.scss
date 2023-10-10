@@ -1,0 +1,10 @@
+.activity-list{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+
+.buttons-align{
+    display: flex;
+    justify-content: center;
+}

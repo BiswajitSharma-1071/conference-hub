@@ -1,0 +1,24 @@
+@import "./error";
+@import "./home";
+@import "./section-header";
+@import "./card";
+@import "./activity-selector";
+@import "./platform-selector";
+@import "./room-size-selector";
+@import "./system-setup";
+
+body {
+  background-color: #f4f5f6;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: lighter;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0.5rem;
+}
+
+.MuiButton-root {
+  border-radius: 15px !important;
+}
